@@ -1,10 +1,13 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #header {
 	background-color:rgb(214,102,90);
  	color:white;
     text-align:center;
     padding:1px;
     font-size:20px;
-	font-family: "Verdana", Times, Sans-serif;
 }
 #nav {
     text-transform: uppercase;
@@ -13,12 +16,11 @@
     text-align:center;
     padding:10px; 
 	font-size:14px;
-	font-family: "Verdana", Times, Sans-serif;}
+}
 a {
 	color: white;
 	text-align: center;
 	font-size:14px;
-	font-family: "Verdana", Times, Sans-serif;
 	text-decoration: none;
 }
 #footer {
@@ -29,18 +31,15 @@ a {
     text-align:center;
     padding:10px; 
     font-size:14px;
-	font-family: "Verdana", Times, Sans-serif;
 }
 h2 {
 	color: black;
 	font-size: 26px;
-	font-family: "Verdana", Times, Sans-serif;
 	text-decoration: none;
 	text-align: center;
 }
 p {
 	color: black;
-	font-family: "Verdana", Times, Sans-serif;
 	text-align: center;
 	margin-left:400px;
 	margin-right:400px;
@@ -48,15 +47,12 @@ p {
 h3 {
 	color: grey;
 	font-size:18px;
-	font-family: "Verdana", Times, Sans-serif;
 	text-decoration: none;
 	text-align: center;
 }
 ul {
 	margin-left:400px;
 	color: black;
-	font-family: "Verdana", Times, Sans-serif;
-
 }
 #img-index {
 	margin-left:370px;
@@ -64,7 +60,10 @@ ul {
 #img-about {
 	margin-left:490px;
 }
-#img-portfolio01 {
+.portfolio-image {
 	margin-left:370px;
+	//border-style: solid;
+	border-width: 1px;
+	border-color: black;
 }
 	
